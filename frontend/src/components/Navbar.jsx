@@ -8,7 +8,7 @@ const Navbar = ({ onLogout }) => {
     onLogout();
     navigate("/");
   };
-
+  
   const isTokenAvailable = !!localStorage.getItem("jwtToken");
 
   return (
