@@ -32,9 +32,9 @@ Before you begin, make sure you have the following installed on your system:
 
 3. Create a `.env` file in the backend directory and add the following configuration:
 
-`MONGODB_URI=your-mongodb-uri`
+MONGODB_URI=your-mongodb-uri
 
-`JWT_SECRET=your-jwt-secret`
+JWT_SECRET=your-jwt-secret
 
 Replace your-mongodb-uri with your MongoDB connection URI and your-jwt-secret with a secret key for JWT authentication.
 
